@@ -9,7 +9,7 @@ services:
     links:
       - postgres
     volumes:
-      - .:/proyecto_guion_web
+      - .:/ws_guion_ia
     environment:
       - NODE_ENV=development
   postgres:

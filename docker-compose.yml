@@ -35,7 +35,7 @@ services:
 
   database:
     image: postgres:15
-    container_name: postgres
+    container_name: ws_guion_ia_postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: ps1root
